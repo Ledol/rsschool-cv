@@ -20,13 +20,13 @@ studying and improving and solving problems on Codewars.
 ## Code Example:
 ```javascript
 function fakeBin(x){
-let result = '';
-let strToArr = x.split('')
+    let result = ''
+    let strToArr = x.split('')
 
-for (let i = 0; i < strToArr.length; i++) {
- +strToArr[i] >= 5 ? result += 1 : result += 0
-}
-  return result
+    for (let i = 0; i < strToArr.length; i++) {
+        +strToArr[i] >= 5 ? result += 1 : result += 0
+    }
+    return result
 }
 ```
 ## Work Experience:
