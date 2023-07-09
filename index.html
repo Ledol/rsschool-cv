@@ -2,9 +2,108 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>CV Dmitry Leonenko</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
 <body>
+<header>
+    <nav>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#about">About Me</a></li>
+            <li class="nav-item"><a href="#skills">Skills</a></li>
+            <li class="nav-item"><a href="#experience">Work Experience</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="title-block">
+        <div class="image">
+            <img src="assets/img/photo.jpg" alt="photo">
+        </div>
+        <div class="title">
+            <h1>Dmitry Leonenko</h1>
+        </div>
+    </div>
+    <div class="information-block">
+        <h2>Contacts:</h2>
+        <ul>
+            <li><b>linkedIn:</b> <a href="https://www.linkedin.com/in/dmitriyleonenko">https://www.linkedin.com/in/dmitriyleonenko/</a>
+            </li>
+            <li><b>tel:</b> +375293555687</li>
+            <li><b>email:</b> dzmitryliavonenka@gmail.com</li>
+        </ul>
+    </div>
+    <div class="information-block" id="about">
+        <h2>About Me:</h2>
+        <p>
+            Hi, I'm a frontend developer with experience in creating a SPA using
+            <i>React and Angular</i>. I'm developing all the time and prefer to spend my free time
+            studying and improving and solving problems on Codewars.
+        </p>
+    </div>
+    <div class="information-block" id="skills">
+        <h2>Skills:</h2>
+        <ul>
+            <li>React</li>
+            <li>Angular</li>
+            <li>TypeScript</li>
+            <li>Redux</li>
+            <li>Git</li>
+            <li>Axios</li>
+            <li>Html</li>
+            <li>CSS-SCSS</li>
+            <li>JS</li>
+        </ul>
+    </div>
+    <div class="information-block">
+        <h2>Code Example:</h2>
+        <pre>
+                <code>
+                   function fakeBin(x){
+                        let result = ''
+                        let strToArr = x.split('')
 
+                        for (let i = 0; i &lt; strToArr.length; i++) {
+                        +strToArr[i] >= 5 ? result += 1 : result += 0
+                        }
+                        return result
+                    }
+                </code>
+            </pre>
+    </div>
+    <div class="information-block" id="experience">
+        <h2>Work Experience:</h2>
+        <ul>
+            <li>
+                <p>Frontend Developer(NextJS, React, Angular, Redux, TypeScript, Axios, SCSS, PWA)</p>
+                <p><i>AdKey</i></p>
+                <p>2023 - present time </p>
+            </li>
+            <li>
+                <p>Training project <i>IT-INCUBATOR</i></p>
+                <p><a href="https://vlad-remnev.github.io/fridaytemp/#/login" target="_blank">Cards project</a></p>
+            </li>
+        </ul>
+    </div>
+    <div class="information-block">
+        <h2>Education:</h2>
+        <p><b>Frontend Developer(React/Redux/TypeScript)</b></p>
+        <p><i>IT-INCUBATOR</i></p>
+        <p>2022</p>
+    </div>
+    <div class="information-block">
+        <h2>Languages:</h2>
+        <ul>
+            <li>English B1 (in progress)</li>
+        </ul>
+    </div>
+</main>
+<footer>
+    <a href="https://github.com/Ledol">GitHub</a>
+    <p>&copy; 2023</p>
+    <a href="https://rs.school/js/">
+        <img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="rs school logo">
+    </a>
+</footer>
 </body>
 </html>
